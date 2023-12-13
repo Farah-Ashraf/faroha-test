@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <!-- <div class="w-75 m-auto py-4">
+
+        <label for="fn">First Name</label>
+        <input type="text" class=" form-control mb-3" id="fn">
+
+        <label for="ln">Second Name</label>
+        <input type="text" class=" form-control mb-3" id="ln">
+
+        <button onclick="sayHello()" class=" btn btn-info">Say Hello</button>
+        <button onclick="Clear()" class=" btn btn-info">Clear</button>
+
+    </div>
+ -->
+
+     <div class="w-75 m-auto py-4 my-5">
+
+        <h1 class=" text-center fw-bolder pb-4 text-primary">Repository</h1>
+
+    
+
+        <label for="pn" class=" fw-bolder pb-3">Product Name</label>
+        <input type="text" class=" form-control mb-5 shadow" id="pn" placeholder="Product Name"/>
+
+        <label for="pp" class=" fw-bolder pb-3">product Price</label>
+        <input type="number" class=" form-control mb-5 shadow" id="pp" placeholder="Product Price"/>
+
+
+        <label for="pc" class=" fw-bolder pb-3">product Category</label>
+        <input type="text" class=" form-control mb-5 shadow" id="pc" placeholder="Product Category"/>
+
+        <label for="pd" class=" fw-bolder pb-3">product Description</label>
+        <textarea id="pd" class=" form-control mb-5 shadow" placeholder="Product Description"></textarea>
+
+        <div class=" text-center">
+            <button onclick="addNewProduct()" class=" btn btn-outline-info "  id="productBtn">Add Product</button>
+
+        </div>
+
+     </div>
+
+     <div class=" container">
+         <table class=" table table-striped text-center mt-3 ">
+             <thead>
+
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Delete</th>
+                <th>Update</th>
+
+
+
+             </thead>
+
+
+             <tbody id="tbody">
+
+                <!-- <tr>
+                    <td>chipsy</td>
+                    <td>20</td>
+                    <td>food</td>
+                    <td>bad</td>
+                </tr>
+
+                <tr>
+                    <td>chipsy</td>
+                    <td>20</td>
+                    <td>food</td>
+                    <td>bad</td>
+                </tr> -->
+
+
+                <!-- <tr>
+                    <td>
+                        <button class=" btn btn-danger">Delete</button>
+
+                    </td>
+
+                    <td>
+                        <button class=" btn btn-warning">Update</button>
+
+                    </td>
+
+                </tr> -->
+
+
+             </tbody>
+         </table>
+     </div>
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
+    
+</body>
+</html>
